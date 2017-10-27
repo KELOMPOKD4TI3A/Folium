@@ -107,3 +107,80 @@ folium.Marker(
 ).add_to(n) 
 
 n
+
+
+n = folium.Map(
+    location=[-7.3044144, 112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
+)
+
+folium.Marker(
+    location=[-7.313033, 112.728353],
+    popup='Bank BTN',
+    icon=folium.Icon(color='chocolate')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.312661, 112.727430],
+    popup='Gedung GEMA UNESA',
+    icon=folium.Icon(color='green')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311842, 112.726593],
+    popup='Pascasarjana Unesa',
+    icon=folium.Icon(color='red')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.314024, 112.727618],
+    popup='Lapangan UNESA',
+    icon=folium.Icon(color='pink')
+).add_to(n) 
+
+
+folium.Marker(
+    location=[-7.314168, 112.726180],
+    popup='RanUnesa',
+    icon=folium.Icon(color='gray')
+).add_to(n) 
+
+
+folium.Marker(
+    location=[-7.314370, 112.726754],
+    popup='Kafe Unesa',
+    icon=folium.Icon(color='black')
+).add_to(n) 
+
+
+folium.Marker(
+    location=[-7.314583, 112.727419],
+    popup='UNESA Library',
+    icon=folium.Icon(color='yellow')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.314748, 112.728095],
+    popup='Pusat Bahasa Universitas Negeri Surabaya',
+    icon=folium.Icon(color='light green')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.313785, 112.725343],
+    popup='Masjid Unesa Ketintang',
+    icon=folium.Icon(color='blue')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.315482, 112.724560],
+    popup='Unesa University Press',
+    icon=folium.Icon(color='light blue')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.315812, 112.724372],
+    popup='Lembaga Penjaminan Mutu Pendidikan (LPMP) Jawa Timur',
+    icon=folium.Icon(color='dark blue')
+).add_to(n) 
+n
