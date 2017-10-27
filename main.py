@@ -183,6 +183,69 @@ folium.Marker(
     popup='Lembaga Penjaminan Mutu Pendidikan (LPMP) Jawa Timur',
     icon=folium.Icon(color='dark blue')
 ).add_to(n) 
+
+folium.Marker(
+    location=[-7.316047, 112.748636],
+    popup='Plasa Marina Surabaya',
+    icon=folium.Icon(color='chocolate')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.316003, 112.748831],
+    popup='Adira',
+    icon=folium.Icon(color='green')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.315823, 112.748923],
+    popup='Axioo',
+    icon=folium.Icon(color='gold')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.316344, 112.748537],
+    popup='Galeri Indosat Plaza Marina',
+    icon=folium.Icon(color='pink')
+).add_to(n) 
+
+
+folium.Marker(
+    location=[-7.316738, 112.748698],
+    popup='BII ATM Sinar Fontana Surabaya',
+    icon=folium.Icon(color='gray')
+).add_to(n) 
+
+
+folium.Marker(
+    location=[-7.316344, 112.748210],
+    popup='McDonalds',
+    icon=folium.Icon(color='black')
+).add_to(n) 
+
+
+folium.Marker(
+    location=[-7.315937, 112.748605],
+    popup='HokBen Plasa Marina',
+    icon=folium.Icon(color='yellow')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.316298, 112.748005],
+    popup='Samsung Partner Plaza - PEACE CELL - PLASA MARINA',
+    icon=folium.Icon(color='green')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.316024, 112.749291],
+    popup='Parkir Timur Plaza Marina',
+    icon=folium.Icon(color='blue')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.315294, 112.748474],
+    popup='Apartemen Puncak Marina Tower 1',
+    icon=folium.Icon(color='blue')
+).add_to(n) 
 n
 
 
