@@ -184,3 +184,80 @@ folium.Marker(
     icon=folium.Icon(color='dark blue')
 ).add_to(n) 
 n
+
+
+bocahmicin = folium.Map(
+    location=[-7.3044144, 112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
+)
+
+folium.Marker(
+    location=[-7.222785, 112.735106],
+    popup='Tokoraket.com',
+    icon=folium.Icon(color='purple')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.220992, 112.732998 ],
+    popup='Perak Photo',
+    icon=folium.Icon(color='white')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.221663, 112.731764 ],
+    popup='PT. Pelayaran Meratus',
+    icon=folium.Icon(color='red')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.218842, 112.730257 ],
+    popup='GAMA-Group',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+
+folium.Marker(
+    location=[-7.215881, 112.729800 ],
+    popup='Sami Jaya',
+    icon=folium.Icon(color='pink')
+).add_to(bocahmicin) 
+
+
+folium.Marker(
+    location=[-7.214343, 112.728389 ],
+    popup='Toko Abrilia',
+    icon=folium.Icon(color='black')
+).add_to(bocahmicin) 
+
+
+folium.Marker(
+    location=[-7.213327, 112.727268 ],
+    popup='Yonif 1 Marinir',
+    icon=folium.Icon(color='yellow')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.210098, 112.723294 ],
+    popup='Cumi Hitam 19',
+    icon=folium.Icon(color='light green')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.210042, 112.722781 ],
+    popup='Pelni Surya',
+    icon=folium.Icon(color='blue')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.206868, 112.721786 ],
+    popup='PT. Petro Andalan Nusantara',
+    icon=folium.Icon(color='light blue')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.198897, 112.731820],
+    popup='Terminal Jamrud',
+    icon=folium.Icon(color='dark blue')
+).add_to(bocahmicin) 
+bocahmicin
