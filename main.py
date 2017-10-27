@@ -1,5 +1,7 @@
 #!/bin/python
 
+import folium
+
 indrarh = folium.Map(
     location=[-7.3044144,112.7412095],
     zoom_start=12,
@@ -37,3 +39,71 @@ folium.Marker([-7.258302, 112.748605], popup='<b>My Grill Surabaya</b>').add_to(
 folium.Marker([-7.259627, 112.746969], popup='<b>Kantor Walikota Surabaya</b>').add_to(kh)
 
 kh
+
+n = folium.Map(
+    location=[-7.3044144, 112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
+)
+
+folium.Marker(
+    location=[-7.229636, 112.766269],
+    popup='Sidotopo Wetan',
+    icon=folium.Icon(icon='cloud')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.280613, 112.770057],
+    popup='KFC Manyar',
+    icon=folium.Icon(color='green')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.279612, 112.766720],
+    popup='Pizza Hut Manyar',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.277314, 112.766087],
+    popup='Boncafe Manyar',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.280176, 112.768930],
+    popup='Ayam Bakar Primarasa',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.278272, 112.766549],
+    popup='Ikan Bakar Cianjur',
+    icon=folium.Icon(color='green')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.278921, 112.765476],
+    popup='Bonet Supermarket',
+    icon=folium.Icon(icon='cloud')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.280113, 112.766120],
+    popup='Hakata Ikkousha',
+    icon=folium.Icon(icon='cloud')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.279868, 112.764027],
+    popup='Gramedia Manyar',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.280102, 112.772460],
+    popup='BCA KCP Kertajaya',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+n
