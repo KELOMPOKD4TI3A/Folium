@@ -458,3 +458,68 @@ folium.Marker(
 ).add_to(bocahmicin) 
 
 bocahmicin
+
+folium.Marker(
+    location=[-7.195429, 112.739471 ],
+    popup='Monumen Jalesveva Jayambe',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.196121, 112.742958  ],
+    popup='KRI Dewa Ruci',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.195361, 112.743256 ],
+    popup='Gd. PTA',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.195426, 112.744312 ],
+    popup='Diskomlekal Koarmatim',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+
+folium.Marker(
+    location=[-7.194862, 112.745514 ],
+    popup='Bengkel Fasharkan Surabaya',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+
+folium.Marker(
+    location=[-7.197573, 112.743774  ],
+    popup='E Wharf',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+
+folium.Marker(
+    location=[-7.196988, 112.731659 ],
+    popup='KopiLot Surabaya ',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.198126, 112.732229 ],
+    popup='PT. Pelindo 3',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.196694, 112.732723 ],
+    popup='Food Court SNQ',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.196721, 112.733404 ],
+    popup='The Markonah Resto & Bar',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+bocahmicin
