@@ -324,3 +324,71 @@ folium.Marker(
     icon=folium.Icon(color='dark blue')
 ).add_to(bocahmicin) 
 bocahmicin
+
+n = folium.Map(
+    location=[-7.3044144, 112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
+)
+
+folium.Marker(
+    location=[-7.311603, 112.795602],
+    popup='Bakso Cak Dul',
+    icon=folium.Icon(icon='cloud')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311664, 112.795814],
+    popup='Warkop Pak Salem',
+    icon=folium.Icon(color='green')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311310, 112.796128],
+    popup='Mie Ayam & Ceker Pak Men',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311185, 112.795961],
+    popup='Aifa Palapa',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.311677, 112.796321],
+    popup='Family Telur',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.311877, 112.796691],
+    popup='Warkop Karambol',
+    icon=folium.Icon(color='green')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311688, 112.797128],
+    popup='Bakso Cak Heru',
+    icon=folium.Icon(icon='cloud')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311254, 112.797126],
+    popup='Pentol Tuna',
+    icon=folium.Icon(icon='cloud')
+).add_to(n)
+
+folium.Marker(
+    location=[-7.311568, 112.795379],
+    popup='Iwan Elektronik',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+folium.Marker(
+    location=[-7.311558, 112.795186],
+    popup='Zahara Elektronik',
+    icon=folium.Icon(color='red', icon='info')
+).add_to(n) 
+
+n
