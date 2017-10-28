@@ -642,4 +642,70 @@ folium.Marker(
     icon=folium.Icon(color='orange', icon='info-sign')
 ).add_to(bocahmicin)
 
+bocahmicin = folium.Map(
+    location=[-7.3044144,112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
+)
+
+folium.Marker(
+    location=[-7.219674, 112.713401],
+    popup='Armada Timur TNI AL Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.221199, 112.719029],
+    popup='Pudislek Bomimoro Kodingkal Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.221477, 112.719500],
+    popup='SMK Khusus Angkatan Laut',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.221748, 112.717042],
+    popup='Lemabaga Pendidikan TNI AL',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.213781, 112.720752],
+    popup='PT Terminal Petikemas Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.214228, 112.7234337],
+    popup='Cahaya Berkah Abdi',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.214682, 112.724296],
+    popup='PT Intiboga Sejahtera',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.214741, 112.724771],
+    popup='Bahana Line',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.213002, 112.725659],
+    popup='Mako Lantamal V Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.212116, 112.724490],
+    popup='RSAL Tanjung Perak',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
