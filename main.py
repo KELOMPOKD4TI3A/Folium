@@ -582,4 +582,64 @@ folium.Marker(
     icon=folium.Icon(color='orange', icon='info-sign')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.256237, 112.751363],
+    popup='Kelurahan Ketabang',
+    icon=folium.Icon(color='gray')
+).add_to(bocahmicin) 
+
+folium.Marker(
+    location=[-7.258765, 112.750797],
+    popup='PT Mastrada Surya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.256224, 112.752060],
+    popup='GBI Ambengan',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.258337, 112.747794],
+    popup='Yayasan Kas Pembangunan',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.257641, 112.747492],
+    popup='Kantor Pemerintah Kota Surabaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.258379, 112.748569],
+    popup='Asoka',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.255759, 112.748879],
+    popup='Princess Photo Studio Surabaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.253498, 112.750316],
+    popup='Taman Remaja Surabaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.252583, 112.749436],
+    popup='Apotik Kusuma',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.256744, 112.750813],
+    popup='Ganesha Operation',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
 bocahmicin
