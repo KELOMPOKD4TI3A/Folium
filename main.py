@@ -522,4 +522,64 @@ folium.Marker(
     icon=folium.Icon(color='gray')
 ).add_to(bocahmicin) 
 
+folium.Marker(
+    location=[-7.224919, 112.787856],
+    popup='Air Mancur Taman Surabaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.224797, 112.787975],
+    popup='Warkop81',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.223414, 112.787488],
+    popup='Markas SDW Group',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.222840, 112.787331],
+    popup='Mushola Hikudritolilah',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.222187, 112.787522],
+    popup='TAMAN PENDIDIKAN AL-QURAN DARUL FALACH',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.221971, 112.787402],
+    popup='Warung Cak Munir',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.221455, 112.787368],
+    popup='Zubaidah Borneo Fried Chiken',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.220610, 112.787384],
+    popup='Masjid Al - Mabrur',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.220558, 112.787164],
+    popup='Madrasah Ibtidaiyah Ribath Darut Tauhid',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.220796, 112.786961],
+    popup='warkop GTT',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(bocahmicin)
+
 bocahmicin
