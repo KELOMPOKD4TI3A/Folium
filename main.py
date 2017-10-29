@@ -708,4 +708,69 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+bocahmicin = folium.Map(
+    location=[-7.3044144, 112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
+)
+folium.Marker(
+    location=[-7.282336, 112.792975],
+    popup='Masjid Manarul Ilmi',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.283773, 112.791907],
+    popup='GOR Futsal Pertamina ITS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.281198, 112.794049],
+    popup='Departemen Arsitektur ITS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.282245, 112.795090],
+    popup='Institut Teknologi Sepuluh Nopember',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.281395, 112.794575],
+    popup='Rektorat ITS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.284961, 112.794983],
+    popup='Departemen Matematika ITS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.285142, 112.796533],
+    popup='Teknik Elektro ITS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.285185, 112.797375],
+    popup='Fakultas Teknologi Industri',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.286727, 112.793073],
+    popup='Gelanggang Olah Raga (GOR) Bulutangkis ITS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.277458, 112.795841],
+    popup='Politeknik Perkapalan Negeri Surabaya (PPNS)',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
