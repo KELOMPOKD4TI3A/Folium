@@ -873,4 +873,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.204424, 112.763150],
+    popup='Warkop Pojok'an',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.204902, 112.763287],
+    popup='Bandeng Presto BU ROHANAH',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.204759, 112.764352],
+    popup='Kios & Warnet Ammar',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205376, 112.763016],
+    popup='Presto Ibu Umi Kalsum',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205280, 112.763480],
+    popup='Masjid Rayadthus Sholihin',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205043, 112.764413],
+    popup='Warung Suyoggg',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205070, 112.764515],
+    popup='"Warkop Suyog"',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205642, 112.762851],
+    popup='Warung Giras Cak Ayik',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205878, 112.763458],
+    popup='Warung Klepas',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.205954, 112.764025],
+    popup='Kedai Kopi Klepas Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
