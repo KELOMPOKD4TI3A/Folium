@@ -813,4 +813,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.263560, 112.748326],
+    popup='Surabaya Suites Hotel',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.263528, 112.748190],
+    popup='ATM Bank Permata Plaza Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.261356, 112.748162],
+    popup='Sanyo Fisher',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.261385, 112.748824],
+    popup='TIKET SURABAYA ONLINE',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.260492, 112.749805],
+    popup='Nurul Fikri',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.260220, 112.749441],
+    popup='Jonas Photo',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.245781, 112.751162],
+    popup='Kantor Pos Surabaya Ketabang',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.245890, 112.751209],
+    popup='Spesial Ceker Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.261675, 112.750365],
+    popup='Golds Gym Grand City Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.260999, 112.739572],
+    popup='Monumen Pers Perjuangan Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
