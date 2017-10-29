@@ -933,4 +933,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.196846, 112.732435],
+    popup='Surabaya North Quay',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198201, 112.733421],
+    popup='PT Pelabuhan Indonesia III',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.199721, 112.734013],
+    popup='Polresta Tanjung Perak',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.201121, 112.732647],
+    popup='PT Dok Dan Perkapalan Surabaya ',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.201874, 112.733512],
+    popup='Sepinggan Indah Travel',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.202882, 112.733801],
+    popup='PT Dharma Lautan Utama',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.201388, 112.733458],
+    popup='Kantor Kesehatan Pelabuhan (KKP) Kelas I Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.203829, 112.733872],
+    popup='KPPBC Tipe Madya Pabean Tanjung Perak',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.203769, 112.733257],
+    popup='PGN SAKA',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.204349, 112.733265],
+    popup='Kementerian Perhubungan Direktorat Jenderal Perhubungan Laut Distrik Navigasi Kelas I Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
