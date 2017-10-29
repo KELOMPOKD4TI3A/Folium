@@ -753,4 +753,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.344749, 112.795751],
+    popup='Balai Pelatihan Dan Pendidikan Ilmu Pelayaran (BP2IP) Surabaya - Kampus II',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.345292, 112.793083],
+    popup='Konveksi Surabaya Griya rasukan',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.344618, 112.796784],
+    popup='Cak Syam Barbershop',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.346590, 112.797199],
+    popup='Perumahan Citra Candra Asri',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.346417, 112.798886],
+    popup='Perum The Amerta Green Land',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.345810, 112.799444],
+    popup='Amega Crown Residence',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.345113, 112.801226],
+    popup='PT. Lastindo Jaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.346193, 112.802717],
+    popup='Masjid Tambakoso',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.346778, 112.803084],
+    popup='Lembaga Pendidikan Ma Ariel Madrasah Ibtidaiyah Darul Ulum',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.346604, 112.803524],
+    popup='Kampung batik sda',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
