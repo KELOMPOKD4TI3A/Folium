@@ -1113,4 +1113,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.373915, 112.779746],
+    popup='DPPU Juanda Pertamina Aviation',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374607, 112.782013],
+    popup='Taman Alat Stasiun Meteorologi Juanda Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374330, 112.783955],
+    popup='PT. Suryagita Nusaraya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374905, 112.783258],
+    popup='ATT Cargo',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374884, 112.784084],
+    popup='Terminal Kargo Juanda T1',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374437, 112.784878],
+    popup='DHL Express SUB',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.376129, 112.786348],
+    popup='Fire Station Bandar Udara Juanda',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374033, 112.787990],
+    popup='Angkasa Pura Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.373452, 112.793790],
+    popup='Parkir Domestik',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.374005, 112.796011],
+    popup='Parkir International',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
