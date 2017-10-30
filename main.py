@@ -875,7 +875,7 @@ folium.Marker(
 
 folium.Marker(
     location=[-7.204424, 112.763150],
-    popup='Warkop Pojok'an',
+    popup='Warkop Pojokan',
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
@@ -990,6 +990,66 @@ folium.Marker(
 folium.Marker(
     location=[-7.204349, 112.733265],
     popup='Kementerian Perhubungan Direktorat Jenderal Perhubungan Laut Distrik Navigasi Kelas I Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228524, 112.722189],
+    popup='TAMAN TANJUNG SADARI',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228393, 112.721719],
+    popup='Garasi Trailler',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228967, 112.722944],
+    popup='Masjid Al Muttaqiin',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228896, 112.723550],
+    popup='Celebes Surabaya Transport. PT',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228341, 112.722775],
+    popup='Waroeng Sunda',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228633, 112.722731],
+    popup='CV. ALBA TRANS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.228573, 112.723655],
+    popup='MotoGPLand',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.227973, 112.723194],
+    popup='Indoline Incomekita. PT',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.229888, 112.722665],
+    popup='Sekolah Menengah Atas Hang Tuah - 1 Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.230288, 112.721459],
+    popup='Persewaan Mobil Sumber Barokkah',
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
