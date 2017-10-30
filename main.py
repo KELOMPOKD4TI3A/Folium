@@ -1173,4 +1173,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.197900, 112.734440],
+    popup='Indonesia Ferry Asdp',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198086, 112.734751],
+    popup='Terminal ferry Tanjung Perak, Tanjung Perak Barat',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198451, 112.734826],
+    popup='Pelabuhan Perak Madura',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.197820, 112.732766],
+    popup='ATM Bank Jatim',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198247, 112.733305],
+    popup='BNI PELINDO III',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198302, 112.732972],
+    popup='Serikat Pekerja PT Pelindo III',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198757, 112.733754],
+    popup='Masjid Baitul Hakam Pelabuhan Tanjung Perak Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198986, 112.734144],
+    popup='Dobek Rumah Makan',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.199827, 112.732962],
+    popup='Pos Jamrud',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200034, 112.733545],
+    popup='Rumah Makan Aroma Makassar',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
