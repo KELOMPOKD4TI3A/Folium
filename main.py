@@ -1053,4 +1053,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.231825, 112.719007],
+    popup='Warung Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.232005, 112.719127],
+    popup='Warung Pojok',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231732, 112.718867],
+    popup='Masjid Taqwirayul',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231245, 112.716621],
+    popup='Warung Imbok',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231418, 112.717517],
+    popup='Al Manar Herbafit Surabaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231450, 112.717339],
+    popup='Toko Hera',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231619, 112.717144],
+    popup='Toko Sekar Jaya',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231492, 112.717794],
+    popup='Anugerah',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.231228, 112.715628],
+    popup='Vista',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.230742, 112.715048],
+    popup='GPS',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
