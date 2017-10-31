@@ -1323,6 +1323,66 @@ folium.Marker(
     popup='Tuban Raya',
     icon=folium.Icon(color='green')
 ).add_to(micin)
+
+folium.Marker(
+    location=[-7.232236, 112.720168],
+    popup='SPBU Pertamina 54.601.19',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.232836, 112.721022],
+    popup='Hotel Antariksa',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.233659, 112.721274],
+    popup='Klenteng Mbah Ratu',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.233757, 112.720880],
+    popup='Graha SBI',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.233935, 112.720876],
+    popup='Kursus Bahasa Jerman Surabaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.233295, 112.720266],
+    popup='Boezem Morokrembangan',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.234261, 112.720828],
+    popup='PT. Baraka Sarana Tama',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.234616, 112.721002],
+    popup='Nasi Tempe Penyet Pak Hambali',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.235149, 112.720446],
+    popup='Tunas Jaya. CV',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.235376, 112.720588],
+    popup='Warung Nasi Pecel Intisari',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
 micin
 
 folium.Marker([-7.340332, 112.732804], popup='<i>SANJAYA TAMA LESTARI SURABAYA</i>').add_to(bocah)
