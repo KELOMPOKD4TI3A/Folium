@@ -1386,6 +1386,16 @@ folium.Marker(
 micin
 
 folium.Marker([-7.340332, 112.732804], popup='<i>SANJAYA TAMA LESTARI SURABAYA</i>').add_to(bocah)
+folium.Marker([-7.241431, 112.730339], popup='<i>Balai Besar Teknik Kesehatan Lingkungan dan Pengendalian Penyakit</i>').add_to(bocah)
+folium.Marker([-7.242176, 112.730189], popup='<i>Surabaya Meka Box. PT</i>').add_to(bocah)
+folium.Marker([-7.240335, 112.731412], popup='<i>Museum Kesehatan Dr. Adhyatma, MPH</i>').add_to(bocah)
+folium.Marker([-7.242485, 112.731798], popup='<i>Damai</i>').add_to(bocah)
+folium.Marker([-7.340332, 112.732804], popup='<i>KPPN Surabaya I</i>').add_to(bocah)
+folium.Marker([-7.242346, 112.733075], popup='<i>Gedung Keuangan Negara I Surabaya</i>').add_to(bocah)
+folium.Marker([-7.243027, 112.732367], popup='<i>Kemayoran Baru Buntu No 41</i>').add_to(bocah)
+folium.Marker([-7.243336, 112.733783], popup='<i>Kejaksaan Negeri Tanjung Perak</i>').add_to(bocah)
+folium.Marker([-7.340332, 112.732804], popup='<i>Museum Kesehatan Dr. Adhyatma, MPH</i>').add_to(bocah)
+folium.Marker([-7.241889, 112.735693], popup='<i>Sekolah Dasar Katolik Santa Angela</i>').add_to(bocah)
 bocah
 
 simpan(bocahmicin,'micin1.html')
