@@ -2,11 +2,33 @@
 
 import folium
 
-bocahmicin = folium.Map(
-    location=[-7.3044144,112.7412095],
+def surabaya1(selalu,terbaik):
+	bocahmicin = folium.Map(
+    location=[selalu,terbaik],
     zoom_start=12,
-    tiles='Stamen Terrain'
-)
+    tiles='Stamen Terrain')
+	return bocahmicin
+
+def surabaya2(selalu1,terbaik1):
+	micin = folium.Map(
+    location=[selalu1,terbaik1],
+    zoom_start=12,
+    tiles='Stamen Terrain')	
+	return micin
+
+def surabaya3(selalu2,terbaik2):
+	bocah = folium.Map(
+	location=[selalu2,terbaik2],
+	zoom_start=12,
+    tiles='Stamen Terrain')	
+	return bocah
+	
+def simpan(banyak,sekali):
+	banyak.save(sekali)
+	
+bocahmicin 	= surabaya1(-7.3044144,112.7412095)
+micin		= surabaya2(-7.3044144,112.7412095)
+bocah		= surabaya3(-7.3044144,112.7412095)
 
 folium.Marker(
     location=[-7.296218, 112.738667],
@@ -1294,3 +1316,18 @@ folium.Marker(
 ).add_to(bocahmicin)
 
 bocahmicin
+
+
+folium.Marker(
+	location=[-7.289308, 112.764022],
+    popup='Tuban Raya',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+micin
+
+folium.Marker([-7.340332, 112.732804], popup='<i>SANJAYA TAMA LESTARI SURABAYA</i>').add_to(bocah)
+bocah
+
+simpan(bocahmicin,'micin1.html')
+simpan(micin,'micin2.html')
+simpan(bocah,'micin3.html')
