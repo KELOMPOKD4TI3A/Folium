@@ -1233,4 +1233,64 @@ folium.Marker(
     icon=folium.Icon(icon='cloud')
 ).add_to(bocahmicin)
 
+folium.Marker(
+    location=[-7.199094, 112.734905],
+    popup='Divisi Terminal Kalimas',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.198959, 112.733653],
+    popup='OMI SILVER MART',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.199578, 112.734068],
+    popup='Polsekta KP3 Tanjung Perak',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200462, 112.733100],
+    popup='Widasari Prima',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200365, 112.733261],
+    popup='Toko Gading Murni',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200305, 112.733413],
+    popup='Gading Murni Perak',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.199754, 112.733998],
+    popup='Polresta Tanjung Perak',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200198, 112.733676],
+    popup='Tk.Ainy',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200030, 112.734040],
+    popup='PT. Citrabuana Indoloka',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
+folium.Marker(
+    location=[-7.200074, 112.734243],
+    popup='Perusahaan Pelayaran Inti Irama Lines',
+    icon=folium.Icon(icon='cloud')
+).add_to(bocahmicin)
+
 bocahmicin
