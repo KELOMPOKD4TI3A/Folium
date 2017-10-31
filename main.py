@@ -1383,6 +1383,66 @@ folium.Marker(
     popup='Warung Nasi Pecel Intisari',
     icon=folium.Icon(color='orange', icon='info-sign')
 ).add_to(micin)
+
+folium.Marker(
+    location=[-7.276103, 112.707406],
+    popup='FIF GROUP Surabaya 3',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.276073, 112.707261],
+    popup='Djoeragan Sego',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.276059, 112.707119],
+    popup='Toko Buku Kwan',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.276014, 112.707549],
+    popup='FIF Kupang Jaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.275563, 112.708146],
+    popup='Kebab Marlin',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.275730, 112.707404],
+    popup='Pertamina',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.276321, 112.707480],
+    popup='Babyceloshop',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.276502, 112.707993],
+    popup='Penyetan bang ali',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.277759, 112.708022],
+    popup='Pat Bing Soo',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.277592, 112.707991],
+    popup='Rumah Pantai Eatery',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
 micin
 
 folium.Marker([-7.340332, 112.732804], popup='<i>SANJAYA TAMA LESTARI SURABAYA</i>').add_to(bocah)
