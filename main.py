@@ -1456,6 +1456,18 @@ folium.Marker([-7.243027, 112.732367], popup='<i>Kemayoran Baru Buntu No 41</i>'
 folium.Marker([-7.243336, 112.733783], popup='<i>Kejaksaan Negeri Tanjung Perak</i>').add_to(bocah)
 folium.Marker([-7.340332, 112.732804], popup='<i>Museum Kesehatan Dr. Adhyatma, MPH</i>').add_to(bocah)
 folium.Marker([-7.241889, 112.735693], popup='<i>Sekolah Dasar Katolik Santa Angela</i>').add_to(bocah)
+
+folium.Marker([-7.309107, 112.813915], popup='<i>Green Semanggi Mangrove</i>').add_to(bocah)
+folium.Marker([-7.306799, 112.811660], popup='<i>Perumahan greenlake</i>').add_to(bocah)
+folium.Marker([-7.304594, 112.810487], popup='<i>Modifikasi Striping Motor</i>').add_to(bocah)
+folium.Marker([-7.304702, 112.809296], popup='<i>Bumi Wonorejo Asri</i>').add_to(bocah)
+folium.Marker([-7.304451, 112.807726], popup='<i>Perm Grand Semanggi Residence</i>').add_to(bocah)
+folium.Marker([-7.306742, 112.809422], popup='<i>Green Lake Natural Living</i>').add_to(bocah)
+folium.Marker([-7.308406, 112.809332], popup='<i>Gardu Induk Surabaya Selatan</i>').add_to(bocah)
+folium.Marker([-7.309015, 112.808159], popup='<i>Wisata Semanggi HERY</i>').add_to(bocah)
+folium.Marker([-7.303073, 112.800454], popup='<i>Lingkungan Pondok Sosial (Liponsos) Surabaya</i>').add_to(bocah)
+folium.Marker([-7.303986, 112.800671], popup='<i>TPU Keputih</i>').add_to(bocah)
+
 bocah
 
 simpan(bocahmicin,'micin1.html')
