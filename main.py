@@ -1577,6 +1577,17 @@ folium.Marker([-7.334217, 112.712664], popup='<i>UPT PMP2KP Surabaya</i>').add_t
 folium.Marker([-7.332916, 112.713223], popup='<i>Toko Hidayah</i>').add_to(bocah)
 folium.Marker([-7.332920, 112.712030], popup='<i>Dinas Pertanian Kota Surabaya</i>').add_to(bocah)
 
+folium.Marker([-7.201499, 112.734490], popup='<i>PT Panca Pilar Tangguh</i>').add_to(bocah)
+folium.Marker([-7.201557, 112.734147], popup='<i>Pt. Jangkar Pacific</i>').add_to(bocah)
+folium.Marker([-7.201832, 112.733535], popup='<i>Sepinggan Indah Travel</i>').add_to(bocah)
+folium.Marker([-7.202278, 112.733856], popup='<i>Tanjung Redeb Indah Perkasa</i>').add_to(bocah)
+folium.Marker([-7.202373, 112.734574], popup='<i>Pt. Karya Indah Transindo</i>').add_to(bocah)
+folium.Marker([-7.202556, 112.733749], popup='<i>PT Portek Indonesia</i>').add_to(bocah)
+folium.Marker([-7.202965, 112.733385], popup='<i>PT. Tehnik Agung Jaya</i>').add_to(bocah)
+folium.Marker([-7.202376, 112.734984], popup='<i>KOPERASI TKBM USAHA KARYA</i>').add_to(bocah)
+folium.Marker([-7.203777, 112.733243], popup='<i>PGN SAKA</i>').add_to(bocah)
+folium.Marker([-7.204708, 112.732519], popup='<i>Terminal Mirah</i>').add_to(bocah
+
 bocah
 
 simpan(bocahmicin,'micin1.html')
