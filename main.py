@@ -1506,6 +1506,17 @@ folium.Marker([-7.264645, 112.690240], popup='<i>Super Indo Satelit Utara</i>').
 folium.Marker([-7.266311, 112.691786], popup='<i>Bakso Panjul</i>').add_to(bocah)
 folium.Marker([-7.266332, 112.691726], popup='<i>Mushola RS Mitra Keluarga Satelit</i>').add_to(bocah)
 
+folium.Marker([-7.342260, 112.718425], popup='<i>Warung Maksol</i>').add_to(bocah)
+folium.Marker([-7.340600, 112.717289], popup='<i>Triple C</i>').add_to(bocah)
+folium.Marker([-7.335652, 112.712167], popup='<i>PITURAGA</i>').add_to(bocah)
+folium.Marker([-7.335433, 112.711780], popup='<i>SMPN 55 Surabaya</i>').add_to(bocah)
+folium.Marker([-7.335487, 112.711571], popup='<i>Kedai Kopi 55</i>').add_to(bocah)
+folium.Marker([-7.336931, 112.712086], popup='<i>Warung Ngawang</i>').add_to(bocah)
+folium.Marker([-7.337043, 112.712162], popup='<i>Bakso Iga Sapu Two Nine</i>').add_to(bocah)
+folium.Marker([-7.334217, 112.712664], popup='<i>UPT PMP2KP Surabaya</i>').add_to(bocah)
+folium.Marker([-7.332916, 112.713223], popup='<i>Toko Hidayah</i>').add_to(bocah)
+folium.Marker([-7.332920, 112.712030], popup='<i>Dinas Pertanian Kota Surabaya</i>').add_to(bocah)
+
 bocah
 
 simpan(bocahmicin,'micin1.html')
