@@ -1443,6 +1443,37 @@ folium.Marker(
     popup='Rumah Pantai Eatery',
     icon=folium.Icon(color='orange', icon='info-sign')
 ).add_to(micin)
+
+folium.Marker(
+    location=[-7.269771, 112.695273],
+    popup='Kejaksaan Negeri Surabaya',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.269375, 112.694663],
+    popup='Loewy Boutique Salon',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.269207, 112.693760],
+    popup='GBI Rock - Darmo Satelite Town',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.269373, 112.693653],
+    popup='Cinazano Wine',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
+folium.Marker(
+    location=[-7.270716, 112.695149],
+    popup='Sekolah Menengah Atas Kristen Gloria 1',
+    icon=folium.Icon(color='orange', icon='info-sign')
+).add_to(micin)
+
 micin
 
 folium.Marker([-7.340332, 112.732804], popup='<i>SANJAYA TAMA LESTARI SURABAYA</i>').add_to(bocah)
@@ -1467,6 +1498,13 @@ folium.Marker([-7.308406, 112.809332], popup='<i>Gardu Induk Surabaya Selatan</i
 folium.Marker([-7.309015, 112.808159], popup='<i>Wisata Semanggi HERY</i>').add_to(bocah)
 folium.Marker([-7.303073, 112.800454], popup='<i>Lingkungan Pondok Sosial (Liponsos) Surabaya</i>').add_to(bocah)
 folium.Marker([-7.303986, 112.800671], popup='<i>TPU Keputih</i>').add_to(bocah)
+
+folium.Marker([-7.266493, 112.691887], popup='<i>Lucky Mart & Healthy Care</i>').add_to(bocah)
+folium.Marker([-7.266640, 112.691216], popup='<i>Rumah Sakit Mitra Keluarga Surabaya</i>').add_to(bocah)
+folium.Marker([-7.266041, 112.689616], popup='<i>Debs Cake Surabaya</i>').add_to(bocah)
+folium.Marker([-7.264645, 112.690240], popup='<i>Super Indo Satelit Utara</i>').add_to(bocah)
+folium.Marker([-7.266311, 112.691786], popup='<i>Bakso Panjul</i>').add_to(bocah)
+folium.Marker([-7.266332, 112.691726], popup='<i>Mushola RS Mitra Keluarga Satelit</i>').add_to(bocah)
 
 bocah
 
