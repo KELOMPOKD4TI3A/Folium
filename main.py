@@ -1586,7 +1586,18 @@ folium.Marker([-7.202556, 112.733749], popup='<i>PT Portek Indonesia</i>').add_t
 folium.Marker([-7.202965, 112.733385], popup='<i>PT. Tehnik Agung Jaya</i>').add_to(bocah)
 folium.Marker([-7.202376, 112.734984], popup='<i>KOPERASI TKBM USAHA KARYA</i>').add_to(bocah)
 folium.Marker([-7.203777, 112.733243], popup='<i>PGN SAKA</i>').add_to(bocah)
-folium.Marker([-7.204708, 112.732519], popup='<i>Terminal Mirah</i>').add_to(bocah
+folium.Marker([-7.204708, 112.732519], popup='<i>Terminal Mirah</i>').add_to(bocah)
+
+folium.Marker([-7.254068, 112.803550], popup='<i>Tugu</i>').add_to(bocah)
+folium.Marker([-7.253220, 112.802621], popup='<i>Atlantis Land Kenjeran</i>').add_to(bocah)
+folium.Marker([-7.251707, 112.803526], popup='<i>Kenpark</i>').add_to(bocah)
+folium.Marker([-7.250889, 112.800961], popup='<i>Pantai Ria Kenjeran</i>').add_to(bocah)
+folium.Marker([-7.252716, 112.797777], popup='<i>Lampung Kobo</i>').add_to(bocah)
+folium.Marker([-7.248768, 112.798853], popup='<i>Batle Land Or Shoting Target</i>').add_to(bocah)
+folium.Marker([-7.248096, 112.798985], popup='<i>Waterpark Kenjeran</i>').add_to(bocah)
+folium.Marker([-7.247324, 112.801067], popup='<i>Patung Buddha 4 Rupa</i>').add_to(bocah)
+folium.Marker([-7.244107, 112.797721], popup='<i>Bekas Wisata Pantai Kulon</i>').add_to(bocah)
+folium.Marker([-7.247134, 112.802526], popup='<i>Vihara Dewi Kwan Im</i>').add_to(bocah)
 
 bocah
 
