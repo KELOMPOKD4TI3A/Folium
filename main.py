@@ -1474,6 +1474,66 @@ folium.Marker(
     icon=folium.Icon(color='orange', icon='info-sign')
 ).add_to(micin)
 
+folium.Marker(
+	location=[-7.339394, 112.738117],
+    popup='Universitas Kristen Petra, Kampus Timur',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.338958, 112.737522],
+    popup='The Square Hotel',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.339368, 112.735791],
+    popup='Homestay Boss Alfian Bimantara Bintang 5',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.339352, 112.736550],
+    popup='Bank Mandiri',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.340294, 112.736824],
+    popup='Sekolah Dasar Negeri Siwalankerto III/420',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.341233, 112.738755],
+    popup='Multi Futsal',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.342435, 112.739560],
+    popup='Crystal X Waru Surabaya',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.342802, 112.739289],
+    popup='MILLENIUM SURABAYA Tempat Percetakan Dan Barang Promosi',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.342493, 112.740220],
+    popup='RjP99 Cell',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
+folium.Marker(
+	location=[-7.342927, 112.740180],
+    popup='Toko Jadi Jaya',
+    icon=folium.Icon(color='green')
+).add_to(micin)
+
 micin
 
 folium.Marker([-7.340332, 112.732804], popup='<i>SANJAYA TAMA LESTARI SURABAYA</i>').add_to(bocah)
